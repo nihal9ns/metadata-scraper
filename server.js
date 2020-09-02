@@ -11,6 +11,12 @@ app.use(morgan("combined"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.get("/", (req, res) => {
+  return res.send(
+    `Server is running! Make a POST request to "/scrape" route with the url in the request body as mentioned in the README!`
+  );
+});
+
 app.post("/scrape", async (req, res) => {
   try {
     if (!req.body.url) {

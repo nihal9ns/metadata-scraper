@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nihal9ns/scraper.git"
+    "url": "git+https://github.com/nihal9ns/metadata-scraper.git"
   },
   "keywords": [
     "Node.js",
@@ -19,9 +19,9 @@
   "author": "Nihal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nihal9ns/scraper/issues"
+    "url": "https://github.com/nihal9ns/metadata-scraper/issues"
   },
-  "homepage": "https://github.com/nihal9ns/scraper#readme",
+  "homepage": "https://github.com/nihal9ns/metadata-scraper#readme",
   "jest": {
     "testEnvironment": "node"
   },
